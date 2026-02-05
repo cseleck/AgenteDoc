@@ -96,7 +96,7 @@ export default function Home() {
         {/* Chat Container */}
         <div className="backdrop-blur-xl bg-white/10 rounded-3xl shadow-2xl border border-white/20 overflow-hidden">
           {/* Messages Area */}
-          <div className="h-[500px] md:h-[600px] overflow-y-auto p-4 md:p-8 space-y-6 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent">
+          <div className="max-h-[70vh] h-[500px] md:h-[600px] overflow-y-auto p-4 md:p-8 space-y-6 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent">
             {messages.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center animate-fade-in">
                 <div className="bg-gradient-to-tr from-white/20 to-white/5 backdrop-blur-lg rounded-2xl p-8 md:p-12 border border-white/30 shadow-xl max-w-md">
@@ -133,7 +133,7 @@ export default function Home() {
                         }`}>
                           {message.role === 'user' ? '👤' : '🤖'}
                         </div>
-                        <p className="whitespace-pre-wrap leading-relaxed flex-1 pt-1">
+                        <p className="whitespace-pre-wrap break-words overflow-wrap-anywhere leading-relaxed flex-1 pt-1">
                           {message.content}
                         </p>
                       </div>
