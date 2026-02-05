@@ -89,7 +89,7 @@ export default function Home() {
             AI Chatbot
           </h1>
           <p className="text-white/90 text-lg md:text-xl font-light">
-            Powered by <span className="font-semibold">GPT-4o Mini</span>
+            Powered by <span className="font-semibold">CAT-industry</span>
           </p>
         </div>
         
@@ -193,7 +193,7 @@ export default function Home() {
         {/* Footer */}
         <div className="text-center mt-6 animate-fade-in">
           <p className="text-white/70 text-sm md:text-base font-light">
-            Creado con ❤️ usando Next.js & OpenAI
+            Agente especializado en resolución de problemas y optimización lógica. Diseñado para transformar desafíos complejos en soluciones claras y accionables.
           </p>
         </div>
       </div>
