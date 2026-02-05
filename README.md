@@ -2,6 +2,7 @@
 
 Un chatbot inteligente desarrollado con Next.js 14 y OpenAI GPT-4o Mini, listo para desplegar en Vercel.
 
+
 ## 🚀 Características
 
 - ✨ Interfaz moderna y responsiva
